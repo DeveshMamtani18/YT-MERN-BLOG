@@ -19,7 +19,7 @@ import SearchResult from './pages/SearchResult'
 import Comments from './pages/Comments'
 import User from './pages/User'
 import AuthRouteProtechtion from './components/AuthRouteProtechtion'
-import OnlyAdminAllowed from './components/OnlyAdminAllowed'
+
 
 const App = () => {
   return (
@@ -43,12 +43,12 @@ const App = () => {
           </Route>
 
 
-          <Route element={<OnlyAdminAllowed />}>
+         
             <Route path={RouteAddCategory} element={<AddCategory />} />
             <Route path={RouteCategoryDetails} element={<CategoryDetails />} />
             <Route path={RouteEditCategory()} element={<EditCategory />} />
             <Route path={RouteUser} element={<User />} />
-          </Route>
+          
 
         </Route>
 

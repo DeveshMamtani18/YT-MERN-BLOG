@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '@/assets/images/logo-white.png'
+import logo from '@/assets/images/logo.png'
 import { Button } from './ui/button'
 import { Link, useNavigate } from 'react-router-dom'
 import { MdLogin } from "react-icons/md";
@@ -65,7 +65,7 @@ const Topbar = () => {
                     <AiOutlineMenu />
                 </button>
                 <Link to={RouteIndex}>
-                    <img src={logo} className='md:w-auto w-48' />
+                    <img src={logo} className='md:w-24 w-32' />
                 </Link>
             </div>
             <div className='w-[500px]'>

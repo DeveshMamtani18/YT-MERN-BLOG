@@ -6,13 +6,13 @@ import { getEvn } from "./getEnv";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: getEvn('VITE_FIREBASE_API'),
-    authDomain: "yt-mern-blog.firebaseapp.com",
-    projectId: "yt-mern-blog",
-    storageBucket: "yt-mern-blog.firebasestorage.app",
-    messagingSenderId: "150248092393",
-    appId: "1:150248092393:web:34bc9843d732ee4be7f678"
-};
+    apiKey: getEvn("VITE_FIREBASE_API"),
+    authDomain: "mern-blog-eec57.firebaseapp.com",
+    projectId: "mern-blog-eec57",
+    storageBucket: "mern-blog-eec57.firebasestorage.app",
+    messagingSenderId: "92101766309",
+    appId: "1:92101766309:web:fdeda6e8dd704e2505714c"
+  };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

@@ -61,7 +61,9 @@ const AppSidebar = () => {
                             :
                             <></>
                         }
-                        {user && user.isLoggedIn && user.user.role === 'admin'
+                        
+
+                        {user && user.isLoggedIn
                             ? <>
                                 <SidebarMenuItem>
                                     <SidebarMenuButton>
